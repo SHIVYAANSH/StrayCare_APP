@@ -39,7 +39,7 @@ async function validateLogin() {
       localStorage.setItem('username', username);
       alert("Login successful!");
 
-      // Redirect to the next page (index.html)
+      // Redirect to the next page (https://shivyaansh.github.io/StrayCare_APP/)
    window.location.href = 'index.html';  // This works when all files are in the same folder
 
     } else {
