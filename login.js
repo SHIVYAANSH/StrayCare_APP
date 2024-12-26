@@ -40,7 +40,8 @@ async function validateLogin() {
       alert("Login successful!");
 
       // Redirect to the next page (index.html)
-      window.location.href = '/index.html';  // Adjust the URL to where you want to redirect
+   window.location.href = 'index.html';  // This works when all files are in the same folder
+
     } else {
       alert("Invalid username or password. Please try again.");
     }
